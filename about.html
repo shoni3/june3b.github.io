@@ -48,10 +48,12 @@ h1,h2,h3,h4,h5,h6 {
 }
   </style>
   <link href="stylesheet.css" rel="stylesheet" type="text/css">
-
+  <link href="swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
+	<script type="text/javascript" src="swiper/swiper-bundle.min.js"></script>
+
   <!-- ======= Header ======= -->
  <header id="header" class="d-flex align-items-center">
     <div class="container d-flex justify-content-between">
@@ -68,13 +70,7 @@ h1,h2,h3,h4,h5,h6 {
           <li><a href="about.html">About Us</a></li>
           <li><a href="services.html">Services</a></li>
         
-          <li class="dropdown"><a href="#"><span>Quick links</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Locacate Us</a></li>
-              <li><a href="#">Email us</a></li>
-              <li><a href="#">Featured Products</a></li>
-              </ul>
-          </li>
+         
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -86,20 +82,7 @@ h1,h2,h3,h4,h5,h6 {
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
-    <section id="breadcrumbs" class="breadcrumbs">
-      <div class="container">
-
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>ABOUT US</h2>
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>About</li>
-          </ol>
-        </div>
-
-      </div>
-    </section><!-- End Breadcrumbs -->
-
+	  <div class="b-example-divider"></div>
     <!-- ======= About Us Section ======= -->
     <section id="about-us" class="about-us">
       <div class="container">
@@ -108,8 +91,9 @@ h1,h2,h3,h4,h5,h6 {
           <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right"></div>
           <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
             <div class="content d-flex flex-column justify-content-center">
-              <h1 data-aos="fade-down"><span class="headername">THE ANCHORAGE&nbsp;</span><span class="headername2">AUTOSHOP</span> </h1>
-              <h2 data-aos="fade-down">ABOUT US</h2>
+              <h1 class="text-center" data-aos="fade-down"><span class="headername">THE ANCHORAGE&nbsp;</span><span class="headername2">AUTOSHOP</span> </h1>
+				<br>
+              <h2 class="text-center text-decoration-underline" data-aos="fade-down">ABOUT US</h2>
               <p data-aos="fade-down">
                 The anchorage autoshop - Founded in 2019, started trading in Oil products and Vehicle parts in 2020.We have a countrywide footprint with head offices in Area 6, Lilongwe, Branches in Biwi Lilongwe, Corner Mart building Limbe, chinyonga, Blantyre and Zomba. 
               </p>
@@ -118,17 +102,17 @@ h1,h2,h3,h4,h5,h6 {
                 We are the supllier of original European automotive parts and german oils in malawi and of highly specialized products from the worlds top manufacturers in automotive, mining, industrial and agricutural sectors.<br>
               We are also the official resellers of FUCHS Oils German, SHELL Oils and POWERTEX Batteries in Malawi.</p>
 				<br>
-				<h2>OUR MISSION</h2>
+				<h2 class="text-center text-decoration-underline">OUR MISSION</h2>
 				
               <div class="row">
                 <div class="col-md-6 icon-box" data-aos="fade-up">
                   <i class="bx bx-cube-alt"></i>
-                  <h4>To be a leading Quality oil and parts distributor</h4>
+                  <h4 class="headername2">To be a leading Quality oil and parts distributor</h4>
                   <p></p>
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
                   <i class="bx bx-cube-alt"></i>
-                  <h4>To always offer Quality products with changing technology</h4>
+                  <h4 class="headername2">To always offer Quality products with changing technology</h4>
                   <p></p>
                 </div>
                 
@@ -140,58 +124,32 @@ h1,h2,h3,h4,h5,h6 {
       </div>
     </section><!-- End About Us Section -->
 
-   
-    <!-- ======= Our Clients Section ======= -->
-      <section id="clients" class="clients">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>Our <strong>Partners</strong></h2>
-          <p>We are the official resellers of FUCHS Oils Geman, SHELL Oils and POWERTEX Batteries in Malawi</p>
-        </div>
-
-        <div class="row no-gutters clients-wrap clearfix" data-aos="fade-up">
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Our Clients Section -->
-
+   <div class="b-example-divider"></div>
+	
   </main><!-- End #main -->
+	
+	<div class="b-example-divider"></div>
 
   <!-- ======= Footer ======= -->
- <div class="social-links text-center text-md-right pt-3 pt-md-0 smedia">
-      <p>&nbsp;</p>
-        <p> <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a> <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a> <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> </p>
- </div>
-	<footer class="text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <p>Copyright © 2022 THEANCHORAGE. All rights reserved.</p>
-          </div>
+   <footer id="footer">
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright text-center">
+          &copy; Copyright <strong><span>2022 The Anchorage Autoshop</span></strong>. All Rights Reserved
         </div>
+       
       </div>
-	  
-    </footer>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 

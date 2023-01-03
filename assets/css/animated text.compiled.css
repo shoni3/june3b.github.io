@@ -1,0 +1,17 @@
+h1, h2 {
+  font-weight: 200;
+  font-family: "Caveat", serif;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+h2 {
+  color: #888;
+  font-size: 2em;
+}
+
+span {
+  color: var(--bs-red);
+}

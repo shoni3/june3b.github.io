@@ -16,7 +16,7 @@
   .timeline-steps .timeline-step:not(:last-child):after {
     content: "";
     display: block;
-    border-top: .25rem dotted #3b82f6;
+    border-top: .25rem dotted var(--bs-green);
     width: 3.46rem;
     position: absolute;
     left: 7.5rem;
@@ -28,7 +28,7 @@
   .timeline-steps .timeline-step:not(:first-child):before {
     content: "";
     display: block;
-    border-top: .25rem dotted #3b82f6;
+    border-top: .25rem dotted var(--bs-orange);
     width: 3.8125rem;
     position: absolute;
     right: 7.5rem;
@@ -48,17 +48,23 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background-color: #3b82f6;
+  background-color: var(--bs-green);
 }
 
 .timeline-steps .timeline-content .inner-circle:before {
   content: "";
-  background-color: #3b82f6;
+  background-color: var(--bs-green);
   display: inline-block;
   height: 3rem;
   width: 3rem;
   min-width: 3rem;
   border-radius: 6.25rem;
   opacity: .5;
+}
+
+div {
+}
+
+div {
 }
 

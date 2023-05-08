@@ -1,0 +1,16 @@
+.readmore__content {
+  max-width: 45rem;
+  width: 100%;
+  display: flex;
+}
+
+button.readmore__toggle {
+  display: flex;
+  margin-top: 1rem;
+  border: none;
+  background: var(--bs-green);
+  color: #ffffff;
+  padding: 0.8rem;
+  cursor: pointer;
+  border-radius: 2rem;
+}

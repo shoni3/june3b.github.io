@@ -11,8 +11,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+Old+Persian&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,400i,600,700&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/Animated-Radial-Progress-Bar-1.css">
     <link rel="stylesheet" href="assets/css/Animated-Radial-Progress-Bar.css">
     <link rel="stylesheet" href="assets/css/Animated-Type-Heading.css">
@@ -21,10 +23,12 @@
     <link rel="stylesheet" href="assets/css/Card-slider-sk.css">
     <link rel="stylesheet" href="assets/css/Client-Slider-1.css">
     <link rel="stylesheet" href="assets/css/Competences-Grid---3-Columns---Hover-Effect-Pop---Icons.css">
+    <link rel="stylesheet" href="assets/css/Features-Boxed.css">
     <link rel="stylesheet" href="assets/css/Footer-Clean.css">
     <link rel="stylesheet" href="assets/css/Highlight-Clean.css">
     <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Team-Boxed.css">
     <link rel="stylesheet" href="assets/css/Ultimate-Testimonial-Slider.css">
     <link rel="stylesheet" href="assets/css/untitled.css">
 </head>
@@ -37,7 +41,7 @@
                     <li class="nav-item"><a class="nav-link" href="index.html" style="color: #000000;font-family: Bitter, serif;font-size: 17px;">&nbsp;Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html" style="color: #000000;font-family: Bitter, serif;font-size: 17px;">&nbsp;About us</a></li>
                     <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#" style="color: #000000;font-family: Bitter, serif;font-size: 17px;">&nbsp;Services&nbsp;</a>
-                        <div class="dropdown-menu"><a class="dropdown-item" href="management.html" style="color: #000000;font-size: 17px;font-family: Bitter, serif;">Management consultancy</a><a class="dropdown-item" href="capital.html" style="color: #000000;font-size: 17px;font-family: Bitter, serif;">Capital Raising</a><a class="dropdown-item" href="accounting.html" style="color: #000000;font-size: 17px;font-family: Bitter, serif;">Accounting</a><a class="dropdown-item" href="taxes.html" style="color: #000000;font-size: 17px;font-family: Bitter, serif;">Taxes</a><a class="dropdown-item" href="trainings.html" style="color: #000000;font-size: 17px;font-family: Bitter, serif;">Trainings</a></div>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="services.html" style="color: #000000;font-size: 17px;font-family: Bitter, serif;background: #006738;">All services</a><a class="dropdown-item" href="management.html" style="color: #000000;font-size: 17px;font-family: Bitter, serif;">Management consultancy</a><a class="dropdown-item" href="capital.html" style="color: #000000;font-size: 17px;font-family: Bitter, serif;">Capital Raising</a><a class="dropdown-item" href="accounting.html" style="color: #000000;font-size: 17px;font-family: Bitter, serif;">Accounting</a><a class="dropdown-item" href="taxes.html" style="color: #000000;font-size: 17px;font-family: Bitter, serif;">Taxes</a><a class="dropdown-item" href="trainings.html" style="color: #000000;font-size: 17px;font-family: Bitter, serif;">Trainings</a></div>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="contact.html" style="color: #000000;font-family: Bitter, serif;font-size: 17px;">&nbsp;Contact us</a></li>
                 </ul>
@@ -73,22 +77,40 @@
             </div>
         </div>
     </div>
-    <section style="margin-bottom: 50px;margin-top: 50px;">
-        <div class="container" style="max-width: 1250px;">
-            <div class="row">
-                <div class="col-md-6" style="padding-top: 30px;">
-                    <h1 style="font-family: Lora, serif;font-size: 53px;color: #000;font-weight: bold;">Finance Management Consultants!<br></h1>
-                    <p style="font-family: Bitter, serif;font-size: 17px;color: var(--secondary);">VCG is a financial and management firm that specializes in serving Micro, Small and Medium-sized Enterprises (MSMEs). At VCG, we are dedicated to providing personalized, high-quality services that help MSMEs navigate the complexities of finance and management and achieve their business goals.<br></p>
-                    <p style="font-family: Bitter, serif;font-size: 17px;color: var(--secondary);">Our team is committed to building long-lasting relationships with clients. We take the time to understand each client's unique needs, goals, and challenges, and we work collaboratively with our clients to develop tailored solutions that meet their specific requirements.<br></p>
-                    <p style="font-family: Bitter, serif;font-size: 17px;color: var(--secondary);">Our commitment to excellence, collaboration and community involvement makes us a valuable resource for businesses looking to achieve their financial and strategic goals and thrive in today’s competitive marketplace.<br></p>
+    <section class="features-boxed" style="margin-top: 50px;background: rgba(0,0,0,0.15);">
+        <div class="container">
+            <h1 style="text-align: center;font-family: Lora, serif;font-weight: bold;font-size: 46px;padding-top: 30px;">Our core values</h1>
+            <div class="row justify-content-center features">
+                <div class="col-sm-6 col-md-5 col-lg-3 item">
+                    <div class="box" style="height: 450px;"><i class="fa fa-puzzle-piece border rounded-pill icon" style="color: #006738;"></i>
+                        <h1 style="font-size: 32px;font-family: Lora, serif;font-weight: bold;">Team work</h1>
+                        <p class="description" style="font-size: 17px;font-family: Lora, serif;"><br>we have a team culture, we are straight forward to deal with and we aim to be a great business partner with all those with whom we work<br><br></p>
+                    </div>
                 </div>
-                <div class="col-md-6" style="padding-top: 30px;"><img class="img-fluid" src="assets/img/pexels-monstera-9489089.jpg"></div>
+                <div class="col-sm-6 col-md-5 col-lg-3 item">
+                    <div class="box" style="height: 450px;"><i class="fa fa-diamond border rounded-pill icon" style="color: #006738;"></i>
+                        <h1 style="font-size: 32px;font-weight: bold;font-family: Lora, serif;">Excellence</h1>
+                        <p class="description" style="font-size: 17px;font-family: Lora, serif;"><br>we aim to exceed expectation<br><br></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-3 item">
+                    <div class="box" style="height: 450px;"><i class="fas fa-user-shield border rounded-pill icon" style="color: #006738;"></i>
+                        <h1 style="font-size: 32px;font-weight: bold;font-family: Lora, serif;">Honesty &amp; Integrity</h1>
+                        <p class="description" style="font-size: 17px;font-family: Lora, serif;"><br>we seek the highest ethical standards both from our firm and our portfolio companies<br><br></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-3 item">
+                    <div class="box" style="height: 450px;"><i class="fa fa-balance-scale border rounded-pill icon" style="color: #006738;"></i>
+                        <h1 style="font-size: 32px;font-weight: bold;font-family: Lora, serif;">Accountability</h1>
+                        <p class="description" style="font-size: 17px;font-family: Lora, serif;"><br>we are creative and flexible, in the ways in which we invest, and in which we encourage innovation in our portfolio companies<br><br></p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <div class="container">
+    <div class="container" style="margin-top: 50px;">
         <h1 style="text-align: center;font-family: Lora, serif;font-weight: bold;font-size: 23px;color: #000;">Why VCG?</h1>
-        <h1 style="text-align: center;font-family: Lora, serif;font-weight: bold;">Expert Guidance for Organizational Success and Growth!<br></h1>
+        <h1 style="text-align: center;font-family: Lora, serif;font-weight: bold;padding-bottom: 50px;">Expert Guidance for Organizational Success and Growth!<br></h1>
     </div>
     <div class="container" style="max-width: 1250px;">
         <div class="row">
@@ -151,6 +173,37 @@
             </div>
         </div>
     </div>
+    <section class="team-boxed" style="background: rgba(0,0,0,0.15);margin-top: 50px;">
+        <div class="container">
+            <h1 style="text-align: center;font-family: Lora, serif;font-weight: bold;font-size: 46px;padding-top: 30px;">Our team</h1>
+            <div class="row people">
+                <div class="col-md-6 col-lg-4 item">
+                    <div class="box" style="height: 530px;"><img class="rounded-circle" src="assets/img/1.jpg">
+                        <h3 class="name">Geoffrey Vinje</h3>
+                        <p class="title">Musician</p>
+                        <p class="description" style="font-size: 17px;font-family: Lora, serif;">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                        <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <div class="box" style="height: 530px;"><img class="rounded-circle" src="assets/img/2.jpg">
+                        <h3 class="name">Emily Ntumbuka</h3>
+                        <p class="title">Artist</p>
+                        <p class="description" style="font-size: 17px;font-family: Lora, serif;">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                        <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <div class="box" style="height: 530px;"><img class="rounded-circle" src="assets/img/3.jpg">
+                        <h3 class="name">Mphatso Nsante</h3>
+                        <p class="title">Stylist</p>
+                        <p class="description" style="font-size: 17px;font-family: Lora, serif;">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                        <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <div class="container" style="margin-top: 50px;margin-bottom: 30px;max-width: 1250px;">
         <h1 style="font-family: Bitter, serif;font-weight: bold;color: #000;font-size: 23px;">Our trusted clients</h1>
     </div>
@@ -172,7 +225,7 @@
                     <h1 style="text-align: center;font-family: Lora, serif;font-size: 23px;color: #006738;font-weight: bold;">Professional consultancy</h1>
                     <hr>
                     <h1 style="text-align: center;font-family: Lora, serif;font-weight: bold;font-size: 46px;color: #000;">Elevate Your Business - Contact Us Today!<br></h1>
-                    <h1 style="text-align: center;font-family: Lora, serif;font-size: 17px;color: #000;">We welcome and celebrate different perspectives and ideas to help our clients and grow there business.<br></h1>
+                    <h1 style="text-align: center;font-family: Lora, serif;font-size: 17px;color: var(--secondary);">We welcome and celebrate different perspectives and ideas to help our clients and grow there business.<br></h1>
                 </div>
             </div>
         </div>
